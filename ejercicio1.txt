@@ -1,0 +1,58 @@
+-Sitúese en la carpeta en la que desee crear el repositorio. 
+- Abrir con el click derecho bash.
+
+- Cree una carpeta, y dentro de la misma un repositorio, ambos con el nombre
+fullstackjava 
+- mkdir para la creacion de carpeta. cd fullstackjava.
+
+- Genere una consulta que permite verificar el estado del repositorio.
+ - git status para consultar el estado del repositorio.
+
+- Cree un documento de texto de nombre contenidos.txt, que posea el siguiente
+contenido:
+Módulo 1: Programación en Python
+Módulo 2: Lenguaje de Consultas a una Base de Datos
+Módulo 3: Fundamentos de Desarrollo Web.
+
+
+- Validar que el contenido ingresado esté efectivamente cargado. Verifique
+además el tamaño del archivo y sus permisos de acceso.
+-Crear un documento de texto llamado `contenidos.txt` con el contenido
+   
+-Crear un documento de texto llamado contenidos.txt con el contenido especificado
+   touch contenidos.txt
+
+-Creacion del archivo `contenidos.txt` con el contenido.
+    vim contenidos.txt      - Ingresamos al texto con vim
+    a                       - Con A, se habilita la edición y se escribe
+                            -  Escribimos los contenidos solicitados
+    ESC                     - Se sale del modo edición
+    :wq                     - Guardar y salir (vuelves a la consola BASH)
+
+-ls -lh contenidos.txt para mostrar archivo con tamaño y permisos
+
+- Añada el archivo al repositorio.
+- git add contenidos.txt para añadir el archivo al repositorio
+
+- Aplique los cambios realizados sobre el repositorio, usando como mensaje
+“Primera versión del temario subida a repositorio”
+- git commmit -m "Primera versión del temario subida a repositorio"
+reliza un commit y un mensaje de las accione o cambios realizados al documento
+
+- Añada una nueva línea al final del archivo, con el contenido “Módulo 2:
+Desarrollo de aplicaciones web dinámicas con Python”.
+- Se añade la nueva linea.
+
+- Verificar qué cambios existen en el repositorio que deban ser almacenados
+- git status para verificar si hay cambios en el archivo.
+
+- Aplicar nuevamente los cambios en el repositorio, esta vez con el mensaje
+“Versión actualizada del contenido”
+git commmit -m "Version actualizada del contenido"
+reliza un commit y un mensaje de las accione o cambios realizados al documento
+
+- Ver el registro de cambios creados sobre el repositorio
+- git log para ver el historial de commmits.
+
+- Finalmente, validar el estado del repositorio
+-git status para confirmar el estado del archivo.
